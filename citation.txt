@@ -1,0 +1,6 @@
+@article{REPO139,
+    author = "Wu, Junde and Fu, Rao and Fang, Huihui and Liu, Yuanpei and Wang, Zhaowei and Xu, Yanwu and Jin, Yueming and Arbel, Tal",
+    journal = "arXiv preprint arXiv:2304.12620",
+    title = "{Medical SAM Adapter: Adapting Segment Anything Model for Medical Image Segmentation}",
+    year = "2023"
+}
