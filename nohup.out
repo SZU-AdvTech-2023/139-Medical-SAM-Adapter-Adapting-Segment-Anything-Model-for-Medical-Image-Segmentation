@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/data2/anjiajia/Medical-SAM-Adapter-main/train.py", line 17, in <module>
+    from sklearn.metrics import roc_auc_score, accuracy_score,confusion_matrix
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/sklearn/__init__.py", line 82, in <module>
+    from .base import clone
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/sklearn/base.py", line 17, in <module>
+    from .utils import _IS_32BIT
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/sklearn/utils/__init__.py", line 25, in <module>
+    from .fixes import parse_version, threadpool_info
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/sklearn/utils/fixes.py", line 19, in <module>
+    import scipy.stats
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/scipy/stats/__init__.py", line 485, in <module>
+    from ._stats_py import *
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/scipy/stats/_stats_py.py", line 39, in <module>
+    from scipy.spatial.distance import cdist
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/scipy/spatial/__init__.py", line 105, in <module>
+    from ._kdtree import *
+  File "/data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+ImportError: /usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /data2/anjiajia/anaconda3/envs/sam_adapt/lib/python3.10/site-packages/scipy/spatial/_ckdtree.cpython-310-x86_64-linux-gnu.so)
